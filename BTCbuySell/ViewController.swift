@@ -66,10 +66,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 let rateUSD:Double = usdObject[ViewController.kRATE] as! Double
                 let rateFloatUSD:Double = rateUSD
                 
-                let currencySign : String = "$"
-                self.bitcoinPrice.text = String.localizedStringWithFormat("%.2f %@", rateFloatUSD, currencySign)
+//                let currencySign : String = "$"
+//                self.bitcoinPrice.text = String.localizedStringWithFormat("%.2f %@", rateFloatUSD, currencySign)
 
-                
+                self.bitcoinPrice.text = (" \(rateFloatUSD) $")
+
                 let eurObject:Dictionary = bpiObject[ViewController.kEUR] as! Dictionary<String, Any>
                 let rateEUR:Double = eurObject[ViewController.kRATE] as! Double
                 let rateFloatEUR:Double = rateEUR
