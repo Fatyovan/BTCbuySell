@@ -27,6 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     static let kEUR = "EUR"
     static let kRATE = "rate_float"
 
+    @IBOutlet weak var transactionFee: UITextField!
     @IBAction func reloadBTCPrice(_ sender: UIButton) {
         getBitcoinPrice()
         sender.pulsate()
@@ -37,10 +38,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let bitcoinPriceFloat2 = (bitcoinPrice.text! as NSString).floatValue
     
         totalSell = Double(Double(amountSell.text!)! * Double(priceSell.text!)!)
-        amountBuy.text = String(totalSell / Double(priceBuy.text!)!)
-        btcProfit.text = String(Double(amountBuy.text!)! - Double(amountSell.text!)!)
-            let bitcoinPriceFloat = (btcProfit.text! as NSString).floatValue
-                usdProfit.text = ("\(String(bitcoinPriceFloat * bitcoinPriceFloat2)) USD")
+        let amountBuyPom : Double = totalSell / Double(priceBuy.text!)!
+        amountBuy.text = ("\(String(totalSell / Double(priceBuy.text!)!)) BTC")
+        let btcProfitPom : Float = Float(amountBuyPom - Double(amountSell.text!)!)
+        btcProfit.text = ("\(amountBuyPom - Double(amountSell.text!)!) BTC")
+                usdProfit.text = ("\(String(btcProfitPom * bitcoinPriceFloat2)) USD")
             
             
                 sender.pulsate()
