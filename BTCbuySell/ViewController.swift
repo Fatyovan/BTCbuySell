@@ -34,16 +34,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func calculateButton(_ sender: UIButton) {
-
+        let currency: String = "BTC"
+        
         let bitcoinPriceFloat2 = (bitcoinPrice.text! as NSString).floatValue
     
         totalSell = Double(Double(amountSell.text!)! * Double(priceSell.text!)!)
         let amountBuyPom : Double = totalSell / Double(priceBuy.text!)!
-        amountBuy.text = ("\(String(totalSell / Double(priceBuy.text!)!)) BTC")
+        amountBuy.text = String.localizedStringWithFormat("%.5f %@", amountBuyPom, currency)
         let btcProfitPom : Float = Float(amountBuyPom - Double(amountSell.text!)!)
-        btcProfit.text = ("\(amountBuyPom - Double(amountSell.text!)!) BTC")
-                usdProfit.text = ("\(String(btcProfitPom * bitcoinPriceFloat2)) USD")
-            
+        btcProfit.text = String.localizedStringWithFormat("%.5f %@", btcProfitPom, currency)
+        let profitBTCusd : Float = (btcProfitPom * bitcoinPriceFloat2)
+        usdProfit.text = String.localizedStringWithFormat("%.3f %@", profitBTCusd, "$")            
             
                 sender.pulsate()
     }
@@ -65,13 +66,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 let rateUSD:Double = usdObject[ViewController.kRATE] as! Double
                 let rateFloatUSD:Double = rateUSD
                 
-                self.bitcoinPrice.text = (" \(rateFloatUSD) $")
+                let currencySign : String = "$"
+                self.bitcoinPrice.text = String.localizedStringWithFormat("%.2f %@", rateFloatUSD, currencySign)
+
                 
                 let eurObject:Dictionary = bpiObject[ViewController.kEUR] as! Dictionary<String, Any>
                 let rateEUR:Double = eurObject[ViewController.kRATE] as! Double
                 let rateFloatEUR:Double = rateEUR
                 
-                self.bitcoinPriceEur.text = (" \(rateFloatEUR) €")
+                let currencySignEUR : String = "€"
+                self.bitcoinPriceEur.text = String.localizedStringWithFormat("%.2f %@", rateFloatEUR, currencySignEUR)
             }
         }
     }
@@ -102,7 +106,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
 }
-//extension MainViewController: CGFloat {
+//extension ViewController: Float {
 //    var decimalsClean: String {
 //        return self.truncatingRemainder(dividingBy: 1) == 0 ? String(format: "%.0f", self) : String(self)
 //    }
