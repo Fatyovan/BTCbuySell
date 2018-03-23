@@ -42,6 +42,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if !(amountBuy.text?.isEmpty)! {
             let bitcoinPriceFloat = (btcProfit.text! as NSString).floatValue
                 usdProfit.text = ("\(String(bitcoinPriceFloat * bitcoinPriceFloat2)) USD")
+            
+            // NEVIDENA GNASA
         }
 
                 sender.pulsate()
