@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C09DF7ECDFDBB6C18A4384 /* Pods_BTCbuySell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA72F40543E9FA65A7F366B /* Pods_BTCbuySell.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8E8CD5052061C75F0087F546 /* bitcoinPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CD5042061C75F0087F546 /* bitcoinPicture.png */; };
+		8E8CD508206247870087F546 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CD507206247870087F546 /* StoreKit.framework */; };
 		8ECB34D0206146F50092FF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB34CF206146F50092FF0E /* AppDelegate.swift */; };
 		8ECB34D2206146F50092FF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB34D1206146F50092FF0E /* ViewController.swift */; };
 		8ECB34D5206146F50092FF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECB34D3206146F50092FF0E /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		8ECB34DA206146F50092FF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECB34D8206146F50092FF0E /* LaunchScreen.storyboard */; };
 		8ECB34E5206146F60092FF0E /* BTCbuySellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB34E4206146F60092FF0E /* BTCbuySellTests.swift */; };
 		8ECB34F0206146F60092FF0E /* BTCbuySellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB34EF206146F60092FF0E /* BTCbuySellUITests.swift */; };
+		8ECB34FE2061489E0092FF0E /* bitcoinChain .png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECB34FD2061489E0092FF0E /* bitcoinChain .png */; };
+		8EEBCE0320628F0A00635A9A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEBCE0420628F0A00635A9A /* Alamofire.framework */; };
+		8EEBCE0520628F0D00635A9A /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEBCE0620628F0D00635A9A /* SVProgressHUD.framework */; };
+		8EEBCE0720628F1100635A9A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEBCE0820628F1100635A9A /* SwiftyJSON.framework */; };
+		8EEBCE0A2062A51200635A9A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEBCE092062A51200635A9A /* UIButtonExtension.swift */; };
+		8EEBCE0C2064F1C100635A9A /* ExtensionAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEBCE0B2064F1C100635A9A /* ExtensionAll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA72F40543E9FA65A7F366B /* Pods_BTCbuySell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCbuySell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8CD5042061C75F0087F546 /* bitcoinPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinPicture.png; sourceTree = "<group>"; };
+		8E8CD507206247870087F546 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		8ECB34CC206146F50092FF0E /* BTCbuySell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCbuySell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECB34CF206146F50092FF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ECB34D1206146F50092FF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,14 @@
 		8ECB34EB206146F60092FF0E /* BTCbuySellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCbuySellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECB34EF206146F60092FF0E /* BTCbuySellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCbuySellUITests.swift; sourceTree = "<group>"; };
 		8ECB34F1206146F60092FF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECB34FD2061489E0092FF0E /* bitcoinChain .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bitcoinChain .png"; sourceTree = "<group>"; };
+		8EEBCE0420628F0A00635A9A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEBCE0620628F0D00635A9A /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEBCE0820628F1100635A9A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEBCE092062A51200635A9A /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		8EEBCE0B2064F1C100635A9A /* ExtensionAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAll.swift; sourceTree = "<group>"; };
+		EAD074488656CAC19EAB1CAF /* Pods-BTCbuySell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCbuySell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCbuySell/Pods-BTCbuySell.debug.xcconfig"; sourceTree = "<group>"; };
+		ECFA8E1A415458888FD2540E /* Pods-BTCbuySell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCbuySell.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCbuySell/Pods-BTCbuySell.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EEBCE0720628F1100635A9A /* SwiftyJSON.framework in Frameworks */,
+				8EEBCE0520628F0D00635A9A /* SVProgressHUD.framework in Frameworks */,
+				8EEBCE0320628F0A00635A9A /* Alamofire.framework in Frameworks */,
+				8E8CD508206247870087F546 /* StoreKit.framework in Frameworks */,
+				03C09DF7ECDFDBB6C18A4384 /* Pods_BTCbuySell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BED3992A42067889BF937DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAD074488656CAC19EAB1CAF /* Pods-BTCbuySell.debug.xcconfig */,
+				ECFA8E1A415458888FD2540E /* Pods-BTCbuySell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E8CD506206247870087F546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EEBCE0820628F1100635A9A /* SwiftyJSON.framework */,
+				8EEBCE0620628F0D00635A9A /* SVProgressHUD.framework */,
+				8EEBCE0420628F0A00635A9A /* Alamofire.framework */,
+				8E8CD507206247870087F546 /* StoreKit.framework */,
+				0AA72F40543E9FA65A7F366B /* Pods_BTCbuySell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8ECB34C3206146F50092FF0E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				8ECB34E3206146F60092FF0E /* BTCbuySellTests */,
 				8ECB34EE206146F60092FF0E /* BTCbuySellUITests */,
 				8ECB34CD206146F50092FF0E /* Products */,
+				8E8CD506206247870087F546 /* Frameworks */,
+				8BED3992A42067889BF937DE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +147,14 @@
 			children = (
 				8ECB34CF206146F50092FF0E /* AppDelegate.swift */,
 				8ECB34D1206146F50092FF0E /* ViewController.swift */,
+				8EEBCE092062A51200635A9A /* UIButtonExtension.swift */,
 				8ECB34D3206146F50092FF0E /* Main.storyboard */,
 				8ECB34D6206146F50092FF0E /* Assets.xcassets */,
 				8ECB34D8206146F50092FF0E /* LaunchScreen.storyboard */,
 				8ECB34DB206146F50092FF0E /* Info.plist */,
+				8E8CD5042061C75F0087F546 /* bitcoinPicture.png */,
+				8ECB34FD2061489E0092FF0E /* bitcoinChain .png */,
+				8EEBCE0B2064F1C100635A9A /* ExtensionAll.swift */,
 			);
 			path = BTCbuySell;
 			sourceTree = "<group>";
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ECB34F4206146F60092FF0E /* Build configuration list for PBXNativeTarget "BTCbuySell" */;
 			buildPhases = (
+				6B194839935C68B78B6005DF /* [CP] Check Pods Manifest.lock */,
 				8ECB34C8206146F50092FF0E /* Sources */,
 				8ECB34C9206146F50092FF0E /* Frameworks */,
 				8ECB34CA206146F50092FF0E /* Resources */,
+				94F0F426F2D019560EEADCE2 /* [CP] Embed Pods Frameworks */,
+				24C08B4D640D2B0CB7F6597D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +249,11 @@
 					8ECB34CB206146F50092FF0E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					8ECB34DF206146F60092FF0E = {
 						CreatedOnToolsVersion = 9.2;
@@ -234,7 +294,9 @@
 			files = (
 				8ECB34DA206146F50092FF0E /* LaunchScreen.storyboard in Resources */,
 				8ECB34D7206146F50092FF0E /* Assets.xcassets in Resources */,
+				8E8CD5052061C75F0087F546 /* bitcoinPicture.png in Resources */,
 				8ECB34D5206146F50092FF0E /* Main.storyboard in Resources */,
+				8ECB34FE2061489E0092FF0E /* bitcoinChain .png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +316,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24C08B4D640D2B0CB7F6597D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCbuySell/Pods-BTCbuySell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B194839935C68B78B6005DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTCbuySell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F0F426F2D019560EEADCE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTCbuySell/Pods-BTCbuySell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCbuySell/Pods-BTCbuySell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8ECB34C8206146F50092FF0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +381,8 @@
 			files = (
 				8ECB34D2206146F50092FF0E /* ViewController.swift in Sources */,
 				8ECB34D0206146F50092FF0E /* AppDelegate.swift in Sources */,
+				8EEBCE0A2062A51200635A9A /* UIButtonExtension.swift in Sources */,
+				8EEBCE0C2064F1C100635A9A /* ExtensionAll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +546,12 @@
 		};
 		8ECB34F5206146F60092FF0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD074488656CAC19EAB1CAF /* Pods-BTCbuySell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2H98Y2573;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BTCbuySell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IvanJovanovik.BTCbuySell;
@@ -439,10 +563,12 @@
 		};
 		8ECB34F6206146F60092FF0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFA8E1A415458888FD2540E /* Pods-BTCbuySell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2H98Y2573;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BTCbuySell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IvanJovanovik.BTCbuySell;
